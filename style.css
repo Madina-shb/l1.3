@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:#141415;
+
+}
+nav{
+    background-color: #313131;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+font-family: Verdana;
+padding: 20px;
+text-align: center;
+}
+.p{
+  color: #51ACFF;
+  display: flex;  
+  justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+
+}
+
+footer{
+    background-color: #313131;
+    height: 218px;
+    margin-top: 80px;
+}
+.imgf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 49px;
+}
+.ft{
+color: #7D7D7D;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-family: Verdana;
+}
+.ft2{
+    color: #7D7D7D;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-family: Inter;
+font-weight: 400;
+text-align: center;
+}
+.blue{
+    color: #51ACFF;
+}
+/* .line{
+    width: 100px;
+    border-bottom: 3px solid #EDBB99;
+    margin: 20px auto;
+    gap: 20px;
+} */
+.column{
+    display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  
+
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .stat-item {
+    text-align: center;
+    color: #fff; 
+  }
+  
+  .stat-number {
+    font-size: 10px;
+    font-family:Verdana ; 
+  
+  }
+  
+  .stat-desc {
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue;
+    padding: 6px;
+  }
+  
+  .line {
+    width: 105px; 
+    height: 4px; 
+    background-color:  #EDBB99; 
+    margin: auto;
+   
+  }
+  .weight{
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: 5px;
+  }
